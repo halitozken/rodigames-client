@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div[data-nextjs-scroll-focus-boundary] {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+
+  /* background: url("../app/background.jpg");
+  background-size: auto auto; */
+}
