@@ -16,6 +16,9 @@ export const metadata = {
   },
   description:
     "Unlock the exciting universe of free online games! Explore the most popular free online games. Create your own gaming experience and find your place in this fun world.",
+  verification: {
+    google: "T-frdDFZifk3YgKrHQWm7Nq0NUwE648xmRrGUIgAJS8",
+  },
 };
 
 const montserratFontFamily = Montserrat({ subsets: ["latin"] });
