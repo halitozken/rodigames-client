@@ -6,6 +6,8 @@ import "../styles/reset.css";
 import Category from "@/components/category";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Head from "next/head";
+import Script from "next/script";
 
 export const metadata = {
   title: {
@@ -21,6 +23,12 @@ const montserratFontFamily = Montserrat({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={montserratFontFamily.className}>
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="T-frdDFZifk3YgKrHQWm7Nq0NUwE648xmRrGUIgAJS8"
+        />
+      </Head>
       <body className="bg-gradient-to-r from-blue-500 to-pink-500 ">
         <Header />
         <Category />
